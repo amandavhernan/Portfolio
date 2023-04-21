@@ -1,0 +1,55 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: black;
+    font-size: 18px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    font-weight: bold;
+    color: black;
+}
+
+.container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-left: 2%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+i.fa {
+  color: black;
+  box-align: center;
+  vertical-align: top;
+  padding-left: .5em;
+}
+
+i.fab {
+    color: black;
+    box-align: center;
+    vertical-align: top;
+    padding-left: .5em;
+  }
+  
+i.fas {
+    color: black;
+    box-align: center;
+    vertical-align: top;
+    padding-left: .5em;
+  }
+
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    padding: 0 0.5em;
+  }
+  .navbar .navbar-nav .nav-item:not(:last-child) .nav-link {
+    border-right: 2px solid #000000;
+  }
+}

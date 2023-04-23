@@ -1,10 +1,21 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     color: black;
 }
 
+a:hover {
+  color: #016064;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .navbar-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -13,7 +24,7 @@ body {
 }
 .navbar .navbar-nav .nav-link:hover{
     font-weight: bold;
-    color: black;
+    color: #016064;
 }
 
 .container {
@@ -24,11 +35,20 @@ body {
     margin-right: auto;
 }
 
+.heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 i.fa {
   color: black;
   box-align: center;
   vertical-align: top;
   padding-left: .5em;
+}
+
+i.fa:hover {
+  color: #016064;
 }
 
 i.fab {
@@ -37,12 +57,20 @@ i.fab {
     vertical-align: top;
     padding-left: .5em;
   }
+
+i.fab:hover {
+    color: #016064;
+  }
   
 i.fas {
     color: black;
     box-align: center;
     vertical-align: top;
     padding-left: .5em;
+  }
+
+i.fas:hover {
+    color: #016064;
   }
 
 @media only screen and (min-width: 992px) {

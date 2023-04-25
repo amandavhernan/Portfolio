@@ -1,6 +1,8 @@
 body {
     font-family: 'Noto Sans', sans-serif;
     color: black;
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 a:hover {
@@ -38,6 +40,25 @@ a {
 .heading {
   font-size: 20px;
   font-weight: bold;
+}
+
+.gallery {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px,300px));
+  column-gap: 45px;
+  row-gap: 45px;
+}
+
+img {
+  max-width:325px;
+  max-height:325px;
+  object-fit: cover;
+  object-position: center;
 }
 
 i.fa {
